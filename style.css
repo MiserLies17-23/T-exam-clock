@@ -37,13 +37,12 @@ body {
             
 .second-hand {
     height: 2px;
-    width: 100px;
+    width: 120px;
     background: red;
     position: absolute;
-    top: 150px;
-    left: 150px;
-    transform-origin: 0% 50%;
-    transition: transform 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+    top: 150px; /* центр по вертикали */
+    left: 30px; /* сдвигаем влево, чтобы центр вращения был в середине часов */
+    transform-origin: 100% 50%; /* точка вращения - правый конец стрелки */
 }
             
 .center-circle {
